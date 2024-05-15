@@ -17,11 +17,6 @@ class OffsetsFirmware_750_755:
 
     MEMCPY = 0xffffffff8248f800
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffffe19d9cf9 : mov cr0, rsi ; ud2 ; mov eax, 1 ; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff825a2589
 
@@ -116,11 +111,6 @@ class OffsetsFirmware_800_803:
 
     MEMCPY = 0xffffffff8245e1c0
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff82660609 : mov cr0, rsi ; ud2 ; mov eax, 1 ; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff82660609
 
@@ -215,11 +205,6 @@ class OffsetsFirmware_850_852:
 
     MEMCPY = 0xffffffff825a40f0
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff823ce849 : mov cr0, rsi ; ud2 ; mov eax, 1 ; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff823ce849
 
@@ -314,11 +299,6 @@ class OffsetsFirmware_900:
 
     MEMCPY = 0xffffffff824714b0
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff823fb949 : mov cr0, rsi ; ud2 ; mov eax, 1 ; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff823fb949
 
@@ -412,11 +392,6 @@ class OffsetsFirmware_903_904:
 
     MEMCPY = 0xffffffff82471130
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff823fb679 : mov cr0, rsi ; ud2 ; mov eax, 1 ; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff823fb679
 
@@ -511,11 +486,6 @@ class OffsetsFirmware_950_960:
 
     MEMCPY = 0xffffffff82401cc0
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff822bea79 : mov cr0, rsi ; ud2 ; mov eax, 1 ; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff822bea79
 
@@ -610,11 +580,6 @@ class OffsetsFirmware_1000_1001:
 
     MEMCPY = 0xffffffff82672d20
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff82376089 : mov cr0 rsi ; ud2 ; mov eax 1; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff82376089
 
@@ -709,11 +674,6 @@ class OffsetsFirmware_1050_1071:
 
     MEMCPY = 0xffffffff822d7370
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff82285f39 : mov cr0 rsi ; ud2 ; mov eax 1; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff82285f39
 
@@ -808,11 +768,6 @@ class OffsetsFirmware_1100:
 
     MEMCPY = 0xffffffff824dddf0
 
-    # Not available on FW >= 6.50
-    # 0xffffffff82200000 : mov cr0, rsi ; mov eax, 1 ; ret
-    MOV_CR0_RSI_MOV_EAX_1_RET = 0xffffffff82200000
-
-    # Not necessary on FW < 6.50
     # 0xffffffff824f1299 : mov cr0, rsi ; ud2 ; mov eax, 1 ; ret
     MOV_CR0_RSI_UD2_MOV_EAX_1_RET = 0xffffffff824f1299
 
